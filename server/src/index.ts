@@ -19,7 +19,7 @@ app.get("/", async (req, res) => {
     message: { $exists: true },
   });
 
-  res.json({ response: dummyData.message });
+  res.json(dummyData);
 });
 
 app.listen(PORT, () => {
