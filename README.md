@@ -51,8 +51,10 @@ $ cd ..
 
 To finish up your project setup, you will need to add the following environment variables to your `.env` file in the `server` directory
 
-`PORT=<port_number>`
-`MONGODB_URI=<mongodb_uri>`
+```
+PORT=<port_number>
+MONGODB_URI=<mongodb_uri>
+```
 
 
 You're now ready to build amazing stuff 🚀
@@ -63,4 +65,4 @@ You're now ready to build amazing stuff 🚀
 If you have any feedback, please reach out to us at moustapha.happydev@gmail.com or create an issue
 
 
-#### Note that we only tested this in unix environments, but it should work on any bash-like shell
+#### Note that we've only tested this in unix environments, but it should work on any bash-like shell
