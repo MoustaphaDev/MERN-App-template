@@ -9,9 +9,8 @@ config();
 
 const app = express();
 const { PORT, MONGODB_URI } = process.env;
-
 mongoose.connect(MONGODB_URI as string);
-
+app.use(express.json());
 app.use(cors());
 
 app.get("/", async (req, res) => {
