@@ -1,6 +1,7 @@
 dist
 dist-ssr
 *.local
+.env
 
 # dependencies
 /node_modules
