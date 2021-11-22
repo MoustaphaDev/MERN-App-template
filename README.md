@@ -15,8 +15,8 @@ We use TypeScript, ESLint and Prettier both on the frontend and backend to enabl
 To install the template, run these commands on your terminal, but replace `<mern-app>` with the name of your choice:
 
 ```bash
-$ npx degit MoustaphaDev/MERN-App-template <mern-app>
-$ cd <mern-app>
+npx degit MoustaphaDev/MERN-App-template <mern-app>
+cd <mern-app>
 ```
 
 You'll see a `server` and `client` folder pop-up in your project directory and you need to install their dependencies. You have three options to install them
@@ -24,25 +24,25 @@ You'll see a `server` and `client` folder pop-up in your project directory and y
 - You can run the `install.sh` in the root directory to install all the dependencies:
 
 ```bash
-$ chmod +x install.sh && ./install.sh
+chmod +x install.sh && ./install.sh
 
 ```
 
 - Or run its content with this shorthand command
 
 ```bash
-$ cd ./client && npm install; cd ../server && npm install && cd ..
+cd ./client && npm install; cd ../server && npm install && cd ..
 ```
 
 - Or again, run its content line-by-line
 
 ```bash
-$ cd ./client
-$ npm install
-$ cd ../server
-$ npm install
-$ touch .env
-$ cd ..
+cd ./client
+npm install
+cd ../server
+npm install
+touch .env
+cd ..
 ```
 
 ## Environment Variables
