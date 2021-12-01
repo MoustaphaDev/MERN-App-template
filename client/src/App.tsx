@@ -6,7 +6,7 @@ function App() {
     const res = fetch('http://localhost:4000/').then((res) => res.json())
     res.then((msgObj: { message: string }) => setMessage(msgObj.message))
   })
-  return <div>The message from the server is: {message}</div>
+  return <div className="text-red-600">The message from the server is: {message}</div>
 }
 
 export default App
